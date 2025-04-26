@@ -1,0 +1,52 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment packages
+*.egg-info/
+dist/
+build/
+
+# Data folders (customize as needed)
+Data/
+CollectedData/
+Model/
+
+# Model files
+*.h5
+*.tflite
+*.pb
+*.onnx
+
+# Logs and outputs
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.bak
+
+# IDE-specific
+.idea/
+
+# Cache
+*.cache/
+.cache/
+
+# Pip requirements backup
+pip-selfcheck.json
