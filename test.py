@@ -8,12 +8,12 @@ detector = HandDetector(maxHands=1)
 classifier = Classifier(
     r"C:\Users\Laptop View\Sign Language Detection\Model\keras_model.h5",
     r"C:\Users\Laptop View\Sign Language Detection\Model\labels.txt"
-)
+) 
 offset = 20
 imgSize = 300
-folder = r"C:\Users\Laptop View\Sign Language Detection\Data\C"
+folder = r"C:\Users\Laptop View\Sign Language Detection\Data\Hello"
 counter = 0
-labels = ["A", "B", "C", "D", "E"]
+labels = ["Hello", "Yes", "No", "I love you", "Thank you"]
 while True:
     success, img = cap.read()
     imgOutput = img.copy()

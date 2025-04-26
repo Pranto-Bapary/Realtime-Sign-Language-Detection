@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 300
-folder = r"C:\Users\Laptop View\Sign Language Detection\Data\E"
+folder = r"C:\Users\Laptop View\Sign Language Detection\Data\Thank you"
 
 counter = 0
 while True:
