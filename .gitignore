@@ -27,7 +27,6 @@ Data/
 CollectedData/
 
 # Model files
-*.h5
 *.tflite
 *.pb
 *.onnx
